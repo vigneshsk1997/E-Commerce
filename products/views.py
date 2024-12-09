@@ -28,7 +28,7 @@ def remove_from_cart(request, product_id):
 
 def clear_cart(request):
     Cart.clear_cart(request.user)
-    return redirect('cart_view')
+    return redirect('cart_view')   #--->file
 
 
 
